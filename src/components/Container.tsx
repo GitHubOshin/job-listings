@@ -1,5 +1,5 @@
 import { FC } from "react"
-import JobCard from "./JobCard"
+import JobCardList from "./JobCardList"
 
 const Container: FC = () => {
   return (
@@ -16,7 +16,7 @@ const Container: FC = () => {
           className="desktop:hidden mobile:block max-w-full w-full h-auto max-h-[156px] bg-desaturatedDarkCyan"
         />
       </header>
-      <JobCard />
+      <JobCardList />
       <footer className=" text-black flex flex-col gap-2 items-center justify-center h-[156px]">
         <span className="text-2xl font-bold">JOB LISTINGS</span>
         <span>OSHIN GANJANAPAS PHOTHONG</span>
